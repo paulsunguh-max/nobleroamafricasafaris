@@ -1,0 +1,6 @@
+{
+  "name": "Zuri Trail Africa",
+  "description": "Zuri Trail Africa offers elite, custom-tailored luxury Kenya & East Africa Safaris, inspired by Abercrombie & Kent, Micato, and Sunworld Safaris.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
