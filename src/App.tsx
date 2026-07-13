@@ -39,7 +39,6 @@ import { Language, TRANSLATIONS } from './data/translations';
 import LanguageSelector from './components/LanguageSelector';
 import MediaWall from './components/MediaWall';
 import SafariMap from './components/SafariMap';
-import SEOOptimizer from './components/SEOOptimizer';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'home' | 'journeys' | 'tailor' | 'difference' | 'reservations' | 'faq'>('home');
@@ -92,7 +91,7 @@ export default function App() {
 
           let matchedLang: Language = 'en';
           if (['KE', 'TZ', 'UG', 'RW', 'BI', 'SO'].includes(countryCode)) {
-            matchedLang = 'sw'; // Swahili for East Africa
+            matchedLang = 'en'; // Default to English for East African countries as requested
           } else if (['FR', 'BE', 'CH', 'CA', 'CD', 'CG', 'CI', 'SN', 'ML', 'NE', 'TG', 'BJ', 'MC'].includes(countryCode)) {
             matchedLang = 'fr'; // French
           } else if (['DE', 'AT', 'CH', 'LI', 'LU'].includes(countryCode)) {
@@ -702,8 +701,6 @@ export default function App() {
             onBookThis={handleInquireFromItinerary}
           />
         )}      </AnimatePresence>
-
-      <SEOOptimizer currentLanguage={currentLanguage} />
 
     </div>
   );

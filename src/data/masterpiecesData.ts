@@ -303,7 +303,7 @@ export const MASTERPIECES_DATA: NatureMasterpiece[] = [
     title: "The Buffalo Sentinel",
     category: "Giants of the Soil",
     location: "Nakuru Plains, Kenya",
-    imageUrl: "/src/assets/images/buffalo_sentinel_1783162287730.jpg",
+    imageUrl: "/assets/images/buffalo_sentinel_1783162287730.jpg",
     description: "A rugged old Cape Buffalo bull covered in yellow mud, gazing confidently through the high thorn thickets.",
     photographer: "Nakuru Core Guide",
     aperture: "f/4.0 1/500s ISO 400",

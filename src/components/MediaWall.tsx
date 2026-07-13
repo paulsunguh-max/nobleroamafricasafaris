@@ -21,7 +21,7 @@ interface MediaItem {
 const MEDIA_ITEMS: MediaItem[] = [
   {
     id: 1,
-    url: "/src/assets/images/blissful_flamingos_1783164904936.jpg",
+    url: "/assets/images/blissful_flamingos_1783164904936.jpg",
     titles: {
       en: "Blissful Flock of Lesser Pink Flamingos",
       sw: "Kundi la heroe wadogo wa rangi ya waridi",
@@ -439,7 +439,7 @@ const MEDIA_ITEMS: MediaItem[] = [
   },
   {
     id: 12,
-    url: "/src/assets/images/african_fish_eagle_1783006787786.jpg",
+    url: "/assets/images/african_fish_eagle_1783006787786.jpg",
     titles: {
       en: "African Fish Eagle Over Mount Kenya Borders",
       sw: "Tai mlaji wa samaki juu ya anga la Mlima Kenya",

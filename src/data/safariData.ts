@@ -68,7 +68,7 @@ export const HERO_SLIDES = [
     location: "Great Rift Valley Highlands"
   },
   {
-    image: "/src/assets/images/african_fish_eagle_1783006787786.jpg",
+    image: "/assets/images/african_fish_eagle_1783006787786.jpg",
     title: "Mount Kenya Alpine Sanctuary",
     tagline: "Behold the African fish eagle soaring peacefully in the high alpine border sky near Mount Kenya's glaciers.",
     location: "Mount Kenya Forest Border"

@@ -105,7 +105,7 @@ const DESTINATIONS: DestinationData[] = [
         status: 'Least Concern',
         popTrend: 'Stable',
         description: 'Majestic raptor famed for its haunting, iconic call echoing over Bird Island and traditional fishing channels.',
-        image: '/src/assets/images/african_fish_eagle_1783006787786.jpg'
+        image: '/assets/images/african_fish_eagle_1783006787786.jpg'
       }
     ]
   },

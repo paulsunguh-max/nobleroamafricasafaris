@@ -49,7 +49,7 @@ const LAKES_GALLERY = [
     desc: "Colossal hippo pods cooling beneath volcanic shadows."
   },
   {
-    url: "/src/assets/images/rift_valley_natron_1783143354386.jpg",
+    url: "/assets/images/rift_valley_natron_1783143354386.jpg",
     title: "Great Rift Valley Waterways",
     desc: "Ancient salt-lake ecosystems nestled under volcanic ridges."
   },
@@ -81,11 +81,11 @@ export default function BookingForm({
   const [copiedSungu, setCopiedSungu] = useState(false);
 
   // Alternating profile pictures state for Paul Sungu
-  const [paulImage, setPaulImage] = useState<string>('/src/assets/images/p1.jpeg');
+  const [paulImage, setPaulImage] = useState<string>('/assets/images/p1.jpeg');
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setPaulImage(prev => prev === '/src/assets/images/p1.jpeg' ? '/src/assets/images/p2.jpeg' : '/src/assets/images/p1.jpeg');
+      setPaulImage(prev => prev === '/assets/images/p1.jpeg' ? '/assets/images/p2.jpeg' : '/assets/images/p1.jpeg');
     }, 6000); // alternating after 6 seconds
     return () => clearInterval(interval);
   }, []);
@@ -600,7 +600,7 @@ Please review my reservation request. Thank you!`;
                 <div className="flex flex-col sm:flex-row gap-5 p-5 rounded-xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950/40 hover:border-amber-500/20 transition-all duration-300">
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shrink-0 border border-stone-300 dark:border-stone-800 shadow-sm bg-stone-200 dark:bg-stone-900">
                     <img 
-                      src="/src/assets/images/w.jpeg" 
+                      src="/assets/images/w.jpeg" 
                       alt="Wambua Kithuka" 
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover animate-fade-in"
