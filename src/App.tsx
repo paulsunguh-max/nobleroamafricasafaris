@@ -174,9 +174,7 @@ export default function App() {
             onClick={() => setActiveTab('home')}
             className="flex items-center gap-3 cursor-pointer group select-none"
           >
-            <div className="p-1.5 bg-amber-500/5 border border-amber-400/25 rounded-xl group-hover:border-amber-400/70 group-hover:bg-amber-500/10 transition-all duration-300">
-              <NobleRoamLogo size={38} className="transition-transform duration-500 group-hover:scale-105" />
-            </div>
+            <NobleRoamLogo size={46} className="transition-transform duration-500 group-hover:scale-105 drop-shadow-sm" />
             <div>
               <span className="font-serif-luxury text-lg md:text-xl font-bold tracking-tight text-stone-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
                 NOBLE ROAM
@@ -595,7 +593,7 @@ export default function App() {
           {/* Logo & Vision detail */}
           <div className="space-y-4 md:col-span-1">
             <div className="flex items-center gap-3">
-              <NobleRoamLogo size={28} />
+              <NobleRoamLogo size={40} className="drop-shadow-sm" />
               <span className="font-serif-luxury text-lg font-bold text-white uppercase tracking-wider">Noble Roam</span>
             </div>
             <p className="text-xs leading-relaxed text-stone-500">
